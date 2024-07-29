@@ -1,0 +1,5 @@
+*.pth
+*_EXPERIMENTAL.py
+checkpoints/*
+segment_anything/*
+!checkpoints/README.md

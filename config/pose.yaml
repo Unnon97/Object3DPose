@@ -1,0 +1,17 @@
+#######
+# This yaml file can be used as a configuration provider for easier parameter changes.
+
+# Author: Dheeraj Singh
+# Email: dheeraj.singh@rwth-aachen.de, singh97.dheeraj@gmail.com
+########
+
+# Parameters used for handling different components of the project
+
+datadirectory: "/home/dheeraj/unnon97/Object3DPose_project/data/"
+projectdirectory: "/home/dheeraj/unnon97/Object3DPose_project/"
+numsamples: 11
+sample_image: 0
+objectdimension:
+  length: 0.210
+  breadth: 0.100
+  height: 0.05
