@@ -1,6 +1,6 @@
 # Object Pose Estimation Project
 
-This project contains scripts that utilise RGB-D input obtained from an Intel Realsense D405 camera on the robot end effector and provides the object (here object layed just before taking the photo) pose: position and orientation.
+This project contains scripts that utilise RGB-D input obtained from an Intel Realsense D405 camera on the robot end effector and provide the object pose: position and orientation (here object put around the center of the images).
 
 
 
@@ -26,28 +26,28 @@ The repository contents can be described as follows:
 
 <!-- ## Input images
 <p style="display: flex; justify-content: space-between;">
-  <img src="data/place_quality_inputs/0/color.png" style="width: 48%;" />
-  <img src="data/place_quality_inputs/1/color.png" style="width: 48%;" /> 
+  <img src="data/folder/0/color.png" style="width: 48%;" />
+  <img src="data/folder/1/color.png" style="width: 48%;" /> 
 </p>
 <p style="display: flex; justify-content: space-between;">
-  <img src="data/place_quality_inputs/2/color.png" style="width: 48%;" /> 
-  <img src="data/place_quality_inputs/3/color.png" style="width: 48%;" /> 
+  <img src="data/folder/2/color.png" style="width: 48%;" /> 
+  <img src="data/folder/3/color.png" style="width: 48%;" /> 
 </p>
 
 <p style="display: flex; justify-content: space-between;">
-  <img src="data/place_quality_inputs/0/depth.png" style="width: 48%;" />
-  <img src="data/place_quality_inputs/1/depth.png" style="width: 48%;" /> 
+  <img src="data/folder/0/depth.png" style="width: 48%;" />
+  <img src="data/folder/1/depth.png" style="width: 48%;" /> 
 </p>
 <p style="display: flex; justify-content: space-between;">
-  <img src="data/place_quality_inputs/2/depth.png" style="width: 48%;" /> 
-  <img src="data/place_quality_inputs/3/depth.png" style="width: 48%;" /> 
+  <img src="data/folder/2/depth.png" style="width: 48%;" /> 
+  <img src="data/folder/3/depth.png" style="width: 48%;" /> 
 </p> -->
 
 
 ## Output
 Based on the input image samples shown above, we run the PnP algorithm to extract the object position and orientation using classical computer vision methods. More output images are in the folder "output_images".
 
-The output value of position and orientation of the object in above shown image is: 
+The output value of the position and orientation of the object in above shown image is: 
 
 <!-- ### object Pose in image
 <p style="display: flex; justify-content: space-between;">
